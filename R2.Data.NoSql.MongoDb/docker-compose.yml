@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  r2.data.nosql.mongodb.api:
+    image: ${DOCKER_REGISTRY}r2datanosqlmongodbapi
+    build:
+      context: .
+      dockerfile: R2.Data.NoSql.MongoDb.Api/Dockerfile

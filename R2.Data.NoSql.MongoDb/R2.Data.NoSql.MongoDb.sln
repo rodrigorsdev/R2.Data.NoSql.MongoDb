@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R2.Data.NoSql.MongoDb", "src\R2.Data.NoSql.MongoDb\R2.Data.NoSql.MongoDb.csproj", "{60852A7C-3E1A-447D-ACAD-B563B02B3707}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R2.Data.NoSql.MongoDb.Api", "R2.Data.NoSql.MongoDb.Api\R2.Data.NoSql.MongoDb.Api.csproj", "{1D7E8D17-06E9-476B-83C6-6C658DC01093}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{4E98EAE6-E395-45C5-BACE-F44386BB99B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60852A7C-3E1A-447D-ACAD-B563B02B3707}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60852A7C-3E1A-447D-ACAD-B563B02B3707}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60852A7C-3E1A-447D-ACAD-B563B02B3707}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60852A7C-3E1A-447D-ACAD-B563B02B3707}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D7E8D17-06E9-476B-83C6-6C658DC01093}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D7E8D17-06E9-476B-83C6-6C658DC01093}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D7E8D17-06E9-476B-83C6-6C658DC01093}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D7E8D17-06E9-476B-83C6-6C658DC01093}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E98EAE6-E395-45C5-BACE-F44386BB99B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E98EAE6-E395-45C5-BACE-F44386BB99B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E98EAE6-E395-45C5-BACE-F44386BB99B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E98EAE6-E395-45C5-BACE-F44386BB99B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {062C3E0F-C1C9-4232-A42C-69CCE8D1F8B3}
+	EndGlobalSection
+EndGlobal
